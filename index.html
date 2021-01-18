@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-<<<<<<< HEAD
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css"> 
     <title>Task Planner</title>
@@ -32,7 +32,7 @@
         <input type="text" class="form-control" id="status" placeholder="In Progress">
       </div>
     
-=======
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="stylesheet" href="css/style.css">
     <title>Task Planner</title>
@@ -53,6 +53,22 @@
       <textarea class="form-control" rows="5" id="comment"></textarea>
     </div>
 
+  <!--Assigned To, Due Date, Status-->
+  <div class="row">
+    <div class="col">
+      <label for="assigned" class="form-label">Assigned To</label>
+      <input type="text" class="form-control" id="assigned" placeholder="Full Name" aria-label="Full name">
+    </div>
+    <div class="col">
+      <label for="due" class="form-label">Due Date</label>
+      <input type="date" class="form-control" id="due" placeholder="dd/mm/yyyy" aria-label="due">
+    </div>
+  </div>
+
+  <div class="status">
+    <label for="status" class="form-label">Status</label>
+    <input type="text" class="form-control" id="status" placeholder="In Progress">
+  </div>  
 
   <!--Button Submit-->
   <div class="container-fluid">
