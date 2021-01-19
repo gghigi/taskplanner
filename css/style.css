@@ -1,6 +1,7 @@
 body {
     margin: auto;
     padding: 10%;
+    min-width: 576px;
 }
 
 h1 {
