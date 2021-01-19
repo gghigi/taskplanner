@@ -66,13 +66,30 @@
   <div class="container-fluid">
     <h2>Tasks :</h2>
     <div class="row d-flex justify-content-left">
-      <div class="card" style="width: 18rem;">
+      <div class="card">
         <div class="card-body">
           <h5 class="card-title">Name</h5>
           <h6 class="card-subtitle">Description</h6>
           <p class="card-text">Assigned to</p>
           <p class="card-text">Date</p>
-          <p class="card-text">Status</p>
+          <div class="row card-footer">
+            <div class="col-6">
+            <p class="card-text">Status</p>
+            </div>
+            <!--Button Completed-->
+            <div class="col-3">
+              <div class="card border-success mb-3">
+                    <a href="#" class="btn btn-outline-success">Completed</a>
+                </div>
+            </div>
+            <!--Button Delete-->
+            <div class="col-3">
+              <div class="card border-danger mb-3">
+                    <a href="#" class="btn btn-outline-danger">Delete</a>
+                </div>
+            </div>
+
+          </div> 
         </div>
       </div>
     </div>
